@@ -1,0 +1,28 @@
+<html>  
+<body>  
+<br><b> Choose your favroite season: </b><br>  
+<input type="radio" id="on" value="on">On<br>   
+<input type="radio" id="off" value="off">Off<br><br>       
+  
+<button type="button" onclick=" checkButton()"> Submit </button>   
+      
+<h3 id="disp" style= "color:green"> </h3>  
+<h4 id="error" style= "color:red"> </h4>  
+</body>  
+  
+<script>  
+function checkButton() {    
+            if(document.getElementById('on').checked) {   
+                document.getElementById("disp").innerHTML   
+                    = document.getElementById("on").value   
+                    + " radio button is checked";   
+            }   
+            else if(document.getElementById('off').checked) {   
+                document.getElementById("disp").innerHTML   
+                    = document.getElementById("off").value   
+                    + " radio button is checked";     
+            }   
+
+        }   
+    </script>   
+</html>  

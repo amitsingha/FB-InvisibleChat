@@ -1,0 +1,32 @@
+{
+    "name": "FB:InvisibleChat",
+    "description": "Facebook chat text transparent",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "icons": {
+        "128": "fb_128.png",
+        "48": "fb_48.png",
+        "16": "fb_16.png"
+    },
+
+    "background": {
+        "service_worker": "bg.js"
+    },
+
+    "host_permissions": [
+        "https://www.facebook.com/"
+    ],
+
+    "permissions": [
+        "tabs", "activeTab", "scripting"
+    ],
+
+    "action": {
+        "default_title": "Click to view a popup",
+        "default_popup": "popup.html"
+    }
+
+}
+
+
