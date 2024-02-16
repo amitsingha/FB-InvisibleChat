@@ -18,11 +18,6 @@ Installation
 
 	The extension will be installed and ready to use.
 
-Usage
-
-	Youtube link: 
-	Highlight the text you want to make visible by selecting it.
-
 
 License
 	This project is licensed under the MIT License.
@@ -30,7 +25,7 @@ License
 Disclaimer
 This extension is designed to enhance privacy during public chats, but it is not foolproof. Exercise caution and discretion while using this extension. The developer (Amit Singha) is not responsible for any misuse or unintended consequences of using this extension.
 
-Happy private chatting! 🕶️
+Enjoy Privacy! 🕶️
 
 
 
