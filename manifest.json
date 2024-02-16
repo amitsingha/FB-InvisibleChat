@@ -5,9 +5,9 @@
     "manifest_version": 3,
 
     "icons": {
-        "128": "fb_128.png",
-        "48": "fb_48.png",
-        "16": "fb_16.png"
+        "128": "Logos/fb_128.png",
+        "48": "Logos/fb_48.png",
+        "16": "Logos/fb_16.png"
     },
 
     "background": {
